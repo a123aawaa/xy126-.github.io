@@ -10,15 +10,15 @@
 
 						<el-menu default-active="1" class="el-menu-vertical-demo" @close="handleClose">
 						<router-link to="/lyb">	<el-menu-item index="1">
-								
+
 								<span slot="title">留言板</span>
 							</el-menu-item></router-link>
 							<router-link to="/xly"><el-menu-item index="2">
-								
+
 								<span slot="title">写留言</span>
 							</el-menu-item></router-link>
-							<router-link to="/"><el-menu-item index="3">
-								
+							<router-link to="/login"><el-menu-item index="3">
+
 								<span slot="title">留言管理系统</span>
 							</el-menu-item></router-link>
 						</el-menu>
@@ -27,9 +27,9 @@
 				</el-row>
 			</el-aside>
 			<el-main>
-				
-			<router-view></router-view>	
-			
+
+			<router-view></router-view>
+
 			</el-main>
 		</el-container>
 	</el-container>
@@ -45,6 +45,6 @@
 		background-color: rgb(64, 158, 255);
 	}
 	body{
-	 margin: 0px;	
+	 margin: 0px;
 	}
 </style>
